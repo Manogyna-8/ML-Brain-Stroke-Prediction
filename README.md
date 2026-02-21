@@ -52,7 +52,7 @@ It applies supervised learning techniques to assist in early risk identification
 ## 📁 Project Structure
 ML-Brain-Stroke-Prediction/
 │
-├── app.py
+├── app.py      
 ├── notebooks/
 ├── data/
 ├── screenshots/

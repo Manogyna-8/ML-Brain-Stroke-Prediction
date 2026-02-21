@@ -1,19 +1,14 @@
-# Brain Stroke Prediction using Machine Learning
+# 🧠 Brain Stroke Prediction using Machine Learning
 
 ## 📌 Overview
-
-This project predicts the likelihood of stroke occurrence using Machine Learning models based on clinical and demographic features.
-
-Models Used:
-- Logistic Regression
-- Decision Tree
+This project predicts the likelihood of stroke occurrence using Machine Learning models based on clinical and demographic features.  
+It applies supervised learning techniques to assist in early risk identification.
 
 ---
 
-## 🚀 Features
-
-- Stroke risk prediction based on patient data
-- Data preprocessing (imputation, encoding, scaling)
+## 🚀 Key Features
+- Stroke risk prediction using Logistic Regression & Decision Tree
+- Data preprocessing (missing value imputation, encoding, scaling)
 - 80–20 train-test validation split
 - Confusion matrix & classification report generation
 - Correlation heatmap visualization
@@ -21,19 +16,19 @@ Models Used:
 
 ---
 
-## 📊 Performance Metrics
+## 📊 Model Performance
 
-- Accuracy: **94.6%**
-- Weighted F1-score: **0.92**
-- Prediction response time: **< 2 seconds**
-- Designed to support up to **4,000 concurrent users**
-- Startup time: **< 1 minute**
-- Planned database scalability: **1 million patient records**
+| Metric | Value |
+|--------|--------|
+| Accuracy | 94.6% |
+| Weighted F1-score | 0.92 |
+| Prediction Time | < 2 seconds |
+
+⚠️ Note: Model performance is affected by class imbalance in the dataset.
 
 ---
 
-## 📋 Features Used in Model
-
+## 📋 Features Used
 - Age
 - BMI
 - Average Glucose Level
@@ -43,17 +38,7 @@ Models Used:
 
 ---
 
-## 🧠 System Strengths
-
-- Binary classification (Stroke / No Stroke)
-- Probability-based risk estimation
-- Decision Tree interpretability
-- Modular model expansion capability
-
----
-
 ## 🛠 Tech Stack
-
 - Python
 - Scikit-learn
 - Pandas
@@ -64,11 +49,27 @@ Models Used:
 
 ---
 
-## 📌 Future Improvements
+## 📁 Project Structure
+ML-Brain-Stroke-Prediction/
+│
+├── app.py
+├── notebooks/
+├── data/
+├── screenshots/
+├── requirements.txt
+├── README.md
+└── .gitignore
 
+
+---
+
+## 🔮 Future Improvements
 - Handle class imbalance using SMOTE
 - Deploy using cloud services
 - Integrate database for patient history storage
-- Add user authentication module
+- Add authentication module
 
 ---
+
+## 👩‍💻 Author
+Manogyna A  

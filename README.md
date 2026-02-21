@@ -39,7 +39,6 @@ Models Used:
 - Average Glucose Level
 - Hypertension
 - Heart Disease
-- Smoking History
 - Gender
 
 ---

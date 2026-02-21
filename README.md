@@ -1,4 +1,4 @@
-# Brain Stroke Prediction System using Machine Learning
+# Brain Stroke Prediction using Machine Learning
 
 ## 📌 Overview
 
